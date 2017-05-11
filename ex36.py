@@ -78,13 +78,12 @@ def main_room():
             print 'You feel accomplished.'
         if boss_killed:
             print 'You won your adversary and you did good.'
-            return
         elif health != 50:
             print 'You persevered in the face of stronger enemy today. A day shall come for you' \
                   ' to return and take on what you left behind.'
-            return
         else:
             print 'You did not expect this. You prefer more leisurely activities.'
+        return
     else:
         print 'You march onwards.'
         tunnel()
